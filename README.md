@@ -6,6 +6,6 @@ This Slackbot that receives input through a [slash command](https://api.slack.co
 
 ## Usage
 
-In Slack, send slash commands to /confluence:
+In Slack, send slash commands to /docs:
 
-    /confluence Seller Ratings
+    /docs Seller Ratings
