@@ -24,7 +24,7 @@ app.post('/post', function(req, res){
   request(parsed_url, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       var data = JSON.parse(body);
-      var first_url = data.response.hits[0].result.url;
+      var first_url = 'https://documentation.powerreviews.com' + data.results[0]._links.webui;
 
       body = {
         response_type: "in_channel",
